@@ -1,0 +1,7 @@
+sources:
+  - ./MapClusterizationManager/
+templates:
+  - AutoEquatable.stencil
+output: 
+  ./MapClusterizationManager/
+args:

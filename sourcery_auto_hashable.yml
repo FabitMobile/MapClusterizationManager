@@ -1,0 +1,7 @@
+sources:
+  - ./MapClusterizationManager/
+templates:
+  - AutoHashable.stencil
+output: 
+  ./MapClusterizationManager/
+args:

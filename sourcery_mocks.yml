@@ -1,0 +1,10 @@
+sources:
+  - ./MapClusterizationManager/
+templates:
+  - Carthage/Checkouts/FataMorgana/Template/Mock.stencil
+output: 
+  ./MapClusterizationManager/mocks/generated/
+args:
+  # testableModule: "MapClusterizationManager"
+  returnEmptyArray: false
+  returnEmptyDict: false
