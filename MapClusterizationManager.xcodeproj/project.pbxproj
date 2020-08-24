@@ -7,28 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		045E3B5F0BB4806D591FD5B5 /* AutoEquatable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FD7AD9BBF1BD97A691390A /* AutoEquatable.generated.swift */; };
-		2BBBB40C973E4B1577F8108A /* Mirage2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAA557387DCC228479E01AD /* Mirage2.framework */; };
 		373444082AF5DA85AABC7EB6 /* QuadBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3EBB0F3291E4CECE1DEAA7 /* QuadBounds.swift */; };
 		441EF713E2027854A29C0AEA /* ClusterizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D816672C92579104A38CF /* ClusterizationManager.swift */; };
-		4783A79A667E85B3B75EE1DD /* AutoHashable.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1700F566FC72355B18DFBCF /* AutoHashable.generated.swift */; };
 		5EA807A969E7759FC0FF9180 /* QuadNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E4E70549961A854DA7171 /* QuadNode.swift */; };
 		6F8A4791544EF69BEE316C0B /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1968734FFC73C295AEF60C4 /* QuadTree.swift */; };
 		8DAE907AA1223448FDFD1F33 /* QuadTreeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CCB0C430B9348785D9A72 /* QuadTreeManager.swift */; };
-		934E82F454277623A23CE084 /* MockClusterizationManager.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6D04722558E9E6A8144B24 /* MockClusterizationManager.generated.swift */; };
 		950276703BDFDB8C019BD467 /* ClusterizableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */; };
 		D93BBE553EA9CA8B7DA94A0B /* ClusterizationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EBAAFEACF0352DF65A4AF /* ClusterizationFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41FD7AD9BBF1BD97A691390A /* AutoEquatable.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoEquatable.generated.swift; sourceTree = "<group>"; };
 		44E4FA85003D06FC557FAAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4BAA557387DCC228479E01AD /* Mirage2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mirage2.framework; sourceTree = "<group>"; };
 		6A0CCB0C430B9348785D9A72 /* QuadTreeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeManager.swift; sourceTree = "<group>"; };
 		6F3EBB0F3291E4CECE1DEAA7 /* QuadBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadBounds.swift; sourceTree = "<group>"; };
 		887E4E70549961A854DA7171 /* QuadNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadNode.swift; sourceTree = "<group>"; };
-		9E6D04722558E9E6A8144B24 /* MockClusterizationManager.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockClusterizationManager.generated.swift; sourceTree = "<group>"; };
-		B1700F566FC72355B18DFBCF /* AutoHashable.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoHashable.generated.swift; sourceTree = "<group>"; };
 		D4344196868E90607A1532B0 /* MapClusterizationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapClusterizationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19D816672C92579104A38CF /* ClusterizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizationManager.swift; sourceTree = "<group>"; };
 		E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizableElement.swift; sourceTree = "<group>"; };
@@ -41,21 +34,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBBB40C973E4B1577F8108A /* Mirage2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C63ABDC05A80512472B7BB9 /* generated */ = {
-			isa = PBXGroup;
-			children = (
-				9E6D04722558E9E6A8144B24 /* MockClusterizationManager.generated.swift */,
-			);
-			path = generated;
-			sourceTree = "<group>";
-		};
 		1E263401127C9EB14AEE79E7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +65,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		91E860366F25E72C7AAC91C5 /* mocks */ = {
-			isa = PBXGroup;
-			children = (
-				0C63ABDC05A80512472B7BB9 /* generated */,
-			);
-			path = mocks;
-			sourceTree = "<group>";
-		};
 		9A6D26A9FFBD661E669C58ED /* QuadTree */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,10 +79,7 @@
 		9C899F5BAF437DBA9092315B /* MapClusterizationManager */ = {
 			isa = PBXGroup;
 			children = (
-				91E860366F25E72C7AAC91C5 /* mocks */,
 				9A6D26A9FFBD661E669C58ED /* QuadTree */,
-				41FD7AD9BBF1BD97A691390A /* AutoEquatable.generated.swift */,
-				B1700F566FC72355B18DFBCF /* AutoHashable.generated.swift */,
 				E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */,
 				F06EBAAFEACF0352DF65A4AF /* ClusterizationFactory.swift */,
 				E19D816672C92579104A38CF /* ClusterizationManager.swift */,
@@ -139,9 +112,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AA1F1D5B1A22000E74D40AB7 /* Build configuration list for PBXNativeTarget "MapClusterizationManager" */;
 			buildPhases = (
-				85156668CC3F0CE4538241AD /* Run Script. Generate Equtables */,
-				40122847F734B1D4DDD5811B /* Run Script. Generate Hashable */,
-				64E0A532A686360470F769D4 /* Run Script. Generate Mock */,
 				8C829F1BD30EFD3EF6CA8B55 /* Sources */,
 				813EA484D3B03AB392850F95 /* Frameworks */,
 			);
@@ -172,6 +142,7 @@
 			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				ru,
 				en,
 			);
 			mainGroup = 1E263401127C9EB14AEE79E7;
@@ -183,74 +154,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		40122847F734B1D4DDD5811B /* Run Script. Generate Hashable */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script. Generate Hashable";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sourcery --disableCache --config \"${SRCROOT}/sourcery_auto_hashable.yml\"";
-		};
-		64E0A532A686360470F769D4 /* Run Script. Generate Mock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script. Generate Mock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sourcery --disableCache --config \"${SRCROOT}/sourcery_mocks.yml\"";
-		};
-		85156668CC3F0CE4538241AD /* Run Script. Generate Equtables */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Run Script. Generate Equtables";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sourcery --disableCache --config \"${SRCROOT}/sourcery_auto_equatable.yml\"";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8C829F1BD30EFD3EF6CA8B55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				045E3B5F0BB4806D591FD5B5 /* AutoEquatable.generated.swift in Sources */,
-				4783A79A667E85B3B75EE1DD /* AutoHashable.generated.swift in Sources */,
 				950276703BDFDB8C019BD467 /* ClusterizableElement.swift in Sources */,
 				D93BBE553EA9CA8B7DA94A0B /* ClusterizationFactory.swift in Sources */,
 				441EF713E2027854A29C0AEA /* ClusterizationManager.swift in Sources */,
-				934E82F454277623A23CE084 /* MockClusterizationManager.generated.swift in Sources */,
 				373444082AF5DA85AABC7EB6 /* QuadBounds.swift in Sources */,
 				5EA807A969E7759FC0FF9180 /* QuadNode.swift in Sources */,
 				6F8A4791544EF69BEE316C0B /* QuadTree.swift in Sources */,
