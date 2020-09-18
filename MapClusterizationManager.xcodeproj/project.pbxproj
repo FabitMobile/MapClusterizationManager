@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		373444082AF5DA85AABC7EB6 /* QuadBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F3EBB0F3291E4CECE1DEAA7 /* QuadBounds.swift */; };
-		441EF713E2027854A29C0AEA /* ClusterizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19D816672C92579104A38CF /* ClusterizationManager.swift */; };
-		5EA807A969E7759FC0FF9180 /* QuadNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E4E70549961A854DA7171 /* QuadNode.swift */; };
-		6F8A4791544EF69BEE316C0B /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1968734FFC73C295AEF60C4 /* QuadTree.swift */; };
-		8DAE907AA1223448FDFD1F33 /* QuadTreeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CCB0C430B9348785D9A72 /* QuadTreeManager.swift */; };
-		950276703BDFDB8C019BD467 /* ClusterizableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */; };
-		D93BBE553EA9CA8B7DA94A0B /* ClusterizationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06EBAAFEACF0352DF65A4AF /* ClusterizationFactory.swift */; };
+		6562D0CB2514A6DE00BB4116 /* ClusterizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C32514A6DE00BB4116 /* ClusterizationManager.swift */; };
+		6562D0CC2514A6DE00BB4116 /* ClusterizableElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C42514A6DE00BB4116 /* ClusterizableElement.swift */; };
+		6562D0CD2514A6DE00BB4116 /* ClusterizationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C52514A6DE00BB4116 /* ClusterizationFactory.swift */; };
+		6562D0CE2514A6DE00BB4116 /* QuadTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C72514A6DE00BB4116 /* QuadTree.swift */; };
+		6562D0CF2514A6DE00BB4116 /* QuadTreeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C82514A6DE00BB4116 /* QuadTreeManager.swift */; };
+		6562D0D02514A6DE00BB4116 /* QuadNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0C92514A6DE00BB4116 /* QuadNode.swift */; };
+		6562D0D12514A6DE00BB4116 /* QuadBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6562D0CA2514A6DE00BB4116 /* QuadBounds.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44E4FA85003D06FC557FAAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4BAA557387DCC228479E01AD /* Mirage2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mirage2.framework; sourceTree = "<group>"; };
-		6A0CCB0C430B9348785D9A72 /* QuadTreeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTreeManager.swift; sourceTree = "<group>"; };
-		6F3EBB0F3291E4CECE1DEAA7 /* QuadBounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadBounds.swift; sourceTree = "<group>"; };
-		887E4E70549961A854DA7171 /* QuadNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadNode.swift; sourceTree = "<group>"; };
+		6562D0C32514A6DE00BB4116 /* ClusterizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterizationManager.swift; sourceTree = "<group>"; };
+		6562D0C42514A6DE00BB4116 /* ClusterizableElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterizableElement.swift; sourceTree = "<group>"; };
+		6562D0C52514A6DE00BB4116 /* ClusterizationFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClusterizationFactory.swift; sourceTree = "<group>"; };
+		6562D0C72514A6DE00BB4116 /* QuadTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
+		6562D0C82514A6DE00BB4116 /* QuadTreeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadTreeManager.swift; sourceTree = "<group>"; };
+		6562D0C92514A6DE00BB4116 /* QuadNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadNode.swift; sourceTree = "<group>"; };
+		6562D0CA2514A6DE00BB4116 /* QuadBounds.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadBounds.swift; sourceTree = "<group>"; };
 		D4344196868E90607A1532B0 /* MapClusterizationManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapClusterizationManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E19D816672C92579104A38CF /* ClusterizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizationManager.swift; sourceTree = "<group>"; };
-		E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizableElement.swift; sourceTree = "<group>"; };
-		F06EBAAFEACF0352DF65A4AF /* ClusterizationFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClusterizationFactory.swift; sourceTree = "<group>"; };
-		F1968734FFC73C295AEF60C4 /* QuadTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +65,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A6D26A9FFBD661E669C58ED /* QuadTree */ = {
+		6562D0C22514A6DE00BB4116 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				6F3EBB0F3291E4CECE1DEAA7 /* QuadBounds.swift */,
-				887E4E70549961A854DA7171 /* QuadNode.swift */,
-				F1968734FFC73C295AEF60C4 /* QuadTree.swift */,
-				6A0CCB0C430B9348785D9A72 /* QuadTreeManager.swift */,
+				6562D0C32514A6DE00BB4116 /* ClusterizationManager.swift */,
+				6562D0C42514A6DE00BB4116 /* ClusterizableElement.swift */,
+				6562D0C52514A6DE00BB4116 /* ClusterizationFactory.swift */,
+				6562D0C62514A6DE00BB4116 /* QuadTree */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6562D0C62514A6DE00BB4116 /* QuadTree */ = {
+			isa = PBXGroup;
+			children = (
+				6562D0C72514A6DE00BB4116 /* QuadTree.swift */,
+				6562D0C82514A6DE00BB4116 /* QuadTreeManager.swift */,
+				6562D0C92514A6DE00BB4116 /* QuadNode.swift */,
+				6562D0CA2514A6DE00BB4116 /* QuadBounds.swift */,
 			);
 			path = QuadTree;
 			sourceTree = "<group>";
@@ -79,10 +90,7 @@
 		9C899F5BAF437DBA9092315B /* MapClusterizationManager */ = {
 			isa = PBXGroup;
 			children = (
-				9A6D26A9FFBD661E669C58ED /* QuadTree */,
-				E5411E8EB9FA8D13652608FC /* ClusterizableElement.swift */,
-				F06EBAAFEACF0352DF65A4AF /* ClusterizationFactory.swift */,
-				E19D816672C92579104A38CF /* ClusterizationManager.swift */,
+				6562D0C22514A6DE00BB4116 /* Source */,
 				44E4FA85003D06FC557FAAA0 /* Info.plist */,
 			);
 			path = MapClusterizationManager;
@@ -159,13 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				950276703BDFDB8C019BD467 /* ClusterizableElement.swift in Sources */,
-				D93BBE553EA9CA8B7DA94A0B /* ClusterizationFactory.swift in Sources */,
-				441EF713E2027854A29C0AEA /* ClusterizationManager.swift in Sources */,
-				373444082AF5DA85AABC7EB6 /* QuadBounds.swift in Sources */,
-				5EA807A969E7759FC0FF9180 /* QuadNode.swift in Sources */,
-				6F8A4791544EF69BEE316C0B /* QuadTree.swift in Sources */,
-				8DAE907AA1223448FDFD1F33 /* QuadTreeManager.swift in Sources */,
+				6562D0D12514A6DE00BB4116 /* QuadBounds.swift in Sources */,
+				6562D0CF2514A6DE00BB4116 /* QuadTreeManager.swift in Sources */,
+				6562D0CE2514A6DE00BB4116 /* QuadTree.swift in Sources */,
+				6562D0CC2514A6DE00BB4116 /* ClusterizableElement.swift in Sources */,
+				6562D0CB2514A6DE00BB4116 /* ClusterizationManager.swift in Sources */,
+				6562D0D02514A6DE00BB4116 /* QuadNode.swift in Sources */,
+				6562D0CD2514A6DE00BB4116 /* ClusterizationFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
